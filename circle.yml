@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 3.5.2
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+test:
+  override:
+    - py.test --junit-xml=$CIRCLE_TEST_REPORTS/reports tests/
+    - flake8 evm/

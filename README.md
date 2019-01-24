@@ -1,23 +1,23 @@
-# Python Implementation of the EVM
+# Python Implementation of the VVM
 
-[![Join the chat at https://gitter.im/ethereum/py-evm](https://badges.gitter.im/ethereum/py-evm.svg)](https://gitter.im/ethereum/py-evm)
-[![Documentation Status](https://readthedocs.org/projects/py-evm/badge/?version=latest)](http://py-evm.readthedocs.io/en/latest/?badge=latest)
+[![Join the chat at https://gitter.im/vaporyco/py-vvm](https://badges.gitter.im/vaporyco/py-vvm.svg)](https://gitter.im/vaporyco/py-vvm)
+[![Documentation Status](https://readthedocs.org/projects/py-vvm/badge/?version=latest)](http://py-vvm.readthedocs.io/en/latest/?badge=latest)
 
-[Documentation hosted by ReadTheDocs](http://py-evm.readthedocs.io/en/latest/)
+[Documentation hosted by ReadTheDocs](http://py-vvm.readthedocs.io/en/latest/)
 
 
-## Introducing Py-EVM
+## Introducing Py-VVM
 
-Py-EVM is a new implementation of the Ethereum Virtual Machine written in
+Py-VVM is a new implementation of the Vapory Virtual Machine written in
 python. It is currently in active development but is quickly progressing
 through the test suite provided by ethereum/tests. I have Vitalik, and the
 existing PyEthereum code to thank for the quick progress I’ve made as many
 design decisions were inspired, or even directly ported from the PyEthereum
 codebase.
 
-Py-EVM aims to eventually become the defacto python implementation of the EVM,
+Py-VVM aims to eventually become the defacto python implementation of the VVM,
 enabling a wide array of use cases for both public and private chains.
-Development will focus on creating an EVM with a well defined API, friendly and
+Development will focus on creating an VVM with a well defined API, friendly and
 easy to digest documentation which can be run as a fully functional mainnet
 node.
 
@@ -33,11 +33,11 @@ our architecture and API choices as well as general feedback and bug finding.
 
 
 ## Development
-Py-EVM depends on a submodule of the common tests across all clients,
+Py-VVM depends on a submodule of the common tests across all clients,
 so you need to clone the repo with the `--recursive` flag. Example:
 
 ```sh
-git clone --recursive git@github.com:ethereum/py-evm.git
+git clone --recursive git@github.com:vaporyco/py-vvm.git
 ```
 
 Then install the required python packages via:
